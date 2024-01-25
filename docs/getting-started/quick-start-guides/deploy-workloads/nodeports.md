@@ -17,17 +17,18 @@ You're ready to create your first Kubernetes [workload](https://kubernetes.io/do
 For this workload, you'll be deploying the application Rancher Hello-World.
 
 1. Click **☰ > Cluster Management**.
-1.  From the **Clusters** page, go to the cluster where the workload should be deployed and click **Explore**.
-1. Click **Workload**.
+1. From the **Clusters** page, go to the cluster where the workload should be deployed and click **Explore**.
+1. Click **Workload**. 
 1. Click **Create**.
-1.  Enter a **Name** for your workload.
-1.  From the **Container Image** field, enter `rancher/hello-world`. This field is case-sensitive.
-1.  Click **Add Port**.
-1.  From the **Service Type** drop-down, make sure that **NodePort** is selected.
+1. Click **Deployment** or **Pod**.
+1. Enter a **Name** for your workload.
+1. Inside the **Container Image** field, enter `rancher/hello-world`. This field is case-sensitive.
+1. Click **Add Port or Service**.
+1. From the **Service Type** drop-down, make sure that **Node Port** is selected.
 
     ![As a dropdown, NodePort (On every node selected)](/img/nodeport-dropdown.png)
 
-1. From the **Publish the container port** field, enter port `80`.
+1. Inside the **Private Container Port** field, enter port `80`.
 
     ![Publish the container port, 80 entered](/img/container-port-field.png)
 
